@@ -1,0 +1,31 @@
+#header-nav{
+	height: 100px;
+	background-image: url("images/2d3c87e.jpg")
+}
+.navbar-brand p{
+	color:#000;
+	font-size:0.5em;
+}
+.navbar-default .navbar-nav>li>a {
+	color:#004acc;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #000;
+}
+body{
+	background-image: url("images/math_wallpaper_by_killerbeat.png");
+}
+header{
+	;
+}
+
+
+
+
+
+
+@media (max-width: 767px){
+footer section{
+	text-align: center;
+}
+
+}
