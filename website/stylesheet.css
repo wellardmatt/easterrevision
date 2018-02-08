@@ -1,31 +1,74 @@
-#header-nav{
-	height: 100px;
-	background-image: url("images/2d3c87e.jpg")
+body{
+	background-color: transparent;
 }
-.navbar-brand p{
-	color:#000;
-	font-size:0.5em;
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+nav{
+	margin:0;
+}
+#header-nav>div{
+	height: 100px;
+}
+#header-nav{
+	height: 125px;
+	background-color: transparent;
+	margin:0;
+	border:0;
+	border-radius:0;
+}
+#logo-img {
+  background-color: transparent;
+  width: 250px;
+  height: 125px;
+  margin: 0;
+}
+#navbar-header{
+	height:100%;
+}
+.navbar-brand{
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+div>a{
+	height:100px;
 }
 .navbar-default .navbar-nav>li>a {
-	color:#004acc;
+	color:#ddac23;
 	font-weight: bold;
-	text-shadow: 1px 1px 1px #000;
-}
-body{
-	background-image: url("images/math_wallpaper_by_killerbeat.png");
+	text-shadow: 0.5px 0.5px 0px #000;
 }
 header{
-	;
 }
 
+/**<!--MAIN CONTENT-->**/
+.main-content{
+	height: 1000px;
+}
+.main-content>#title>h1{
+	margin:0px 0px 0px 0px;
+	padding: 20px;
+	color: #fff;
+	text-shadow: 0.5px 0.5px 0px #000;
+}
 
-
-
+@media (min-width: 768px){
+body{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 960px;
+}
+}
 
 
 @media (max-width: 767px){
 footer section{
 	text-align: center;
 }
-
 }
